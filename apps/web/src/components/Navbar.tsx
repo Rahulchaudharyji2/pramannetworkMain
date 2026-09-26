@@ -111,7 +111,7 @@ export default function Navbar({ walletAddress, onConnectWallet, isConnecting }:
               <ArrowUpRight className="h-3 w-3" />
             </a>
 
-            <a
+            {/* <a
               href="https://team.praman.network/"
               target="_blank"
               rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export default function Navbar({ walletAddress, onConnectWallet, isConnecting }:
             >
               <span>Team Praman</span>
               <ArrowUpRight className="h-3 w-3" />
-            </a>
+            </a> */}
 
             <Link
               to="/blog"
